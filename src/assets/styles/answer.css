@@ -36,6 +36,12 @@
   border: 2px solid #F9A826;
 }
 
+.answer.replied:hover {
+  background-color: initial;
+  border-color: initial;
+  color: initial;
+}
+
 .answer > div:first-child {
   display: flex;
   align-items: center;
