@@ -1,0 +1,50 @@
+.result {
+  padding: 50px 32px 32px 32px;
+  background-color: #FFF;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 540px;
+}
+
+.result > img {
+  max-width: 240px;
+}
+
+.result > div > h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #1D355D;
+  text-align: center;
+}
+
+.result > div > p {
+  font-size: 18px;
+  color: #1D355D;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.result > div > p > span {
+  font-weight: 700;
+  font-size: 36px;
+  color: #60BF88;
+}
+
+.result > button {
+  background-color: transparent;
+  border: 2px solid #1D355D;
+  border-radius: 12px;
+  color: #1D355D;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 18px 60px;
+  cursor: pointer;
+}

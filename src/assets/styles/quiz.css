@@ -1,0 +1,12 @@
+.quiz {
+  width: 100%;
+  max-width: 400px;
+}
+
+.quiz > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F2F2F2;
+  margin: 0 0 16px 0;
+}
