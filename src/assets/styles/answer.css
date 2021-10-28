@@ -39,7 +39,10 @@
 .answer > div:first-child {
   display: flex;
   align-items: center;
-  gap: 50px;
+}
+
+.answer > div:first-child > span:first-child {
+  margin-right: 50px;
 }
 
 .answer > div > .letter {
