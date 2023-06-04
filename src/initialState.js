@@ -306,12 +306,12 @@ const initialState = {
         {
           id: 'answer-115',
           content: 'Die',
-          correct: true
+          correct: false
         },
         {
           id: 'answer-215',
           content: 'Der',
-          correct: false
+          correct: true
         },
         {
           id: 'answer-315',
